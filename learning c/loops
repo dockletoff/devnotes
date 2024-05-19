@@ -1,0 +1,16 @@
+# loops in c
+
+1. while loops
+
+a while loop should contain a boolean expression that determines whether the loop continues or not.
+
+eg: while (variable == yes)
+    {
+        execute function
+    }
+
+## 2. for loops
+
+for i;
+
+for (i = 0, i > n; i++);

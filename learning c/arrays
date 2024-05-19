@@ -1,0 +1,38 @@
+## arrays
+
+Arrays are like a PO box at the post office mail bank (wall of PO boxes).
+
+They are indexed starting at 0.
+
+If an array consists of n elements, the final element will be located at index (n -1);
+
+eg if an array has 50 elements, the first will be indexed at 0 and the last at 49
+
+Array declarations:
+
+type name[size] 
+
+type = data type (eg int, float, string)
+name = name of the array;
+size = how many elements are contained in the array;
+
+You can declare and initialize an array at the same time by either
+
+// instantation syntax 
+
+bool true_orfalse[4] = {true, false, true, false}
+
+(note that you actually don't need to define the size of the array when initialising (eg 4) as the computer can figure this out for you
+
+or
+
+// individual element syntax 
+
+bool true_orfalse[4];
+true_orfalse[0] =  true;
+true_orfalse[1] =  false;
+true_orfalse[2] =  true;
+true_orfalse[3] =  false;
+
+## arrays can also consist of more than one dimension
+eg bool battleship_board [a][10]

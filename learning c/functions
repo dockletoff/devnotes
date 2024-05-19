@@ -1,0 +1,29 @@
+# functions in c
+
+A function is a black box with 0+ inputs and 1 output.
+
+A function declaration should sit above the mainmain code, the declaration follows the formula:
+
+return type name(argument list);
+
+Note that only the function declaration is terminated with a semi colon
+
+eg, a function to multiply two floating point numbers:
+
+float multiply_f(float x, float y)
+{
+    float multiply_f = float * y
+    return multiply_f;
+}
+
+or
+
+float multiply_f(float x, float y)
+{
+    return x * y;
+}
+
+int add(int a, int b)
+{
+    return a + b;
+}

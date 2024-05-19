@@ -1,0 +1,12 @@
+## format codes in c
+
+%c = character
+
+%f = float
+
+%i = integer
+
+%li = long
+
+%s = string
+

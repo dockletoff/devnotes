@@ -1,0 +1,58 @@
+## operators in c
+
+### arithmetic operators
+
++; add
+-; subtract
+*; multiply
+/; divide
+
+We also have the modulus operator % which gives us a remainder eg
+
+int m = 13 / 4; // m is now 1
+
+shorthand versions:
+
+x = x * 5 can also be notated as x*=5
+x = x + 1 can also be notated as x++
+same with x--
+
+### boolean expressions
+
+All boolean expressions evaluate to one of two values; true or false 
+
+You don't always have to use boolean type variables when working with bools because in C, everyone non-zero value is true; ie an integer of value 3 is true. Only an integer of 0 is considered false.
+
+The two main types of bools are logical operators and relational operators
+
+#### Logical operators with bool
+
+with two variables (x and y)
+
+Logical and (&&):
+
+x = true & y = true (x && y) == true
+x = true & y = false == false
+
+Logical or (||):
+
+x = true & y = false == true
+x = false & y = true == true
+
+Logical not (!):
+
+ x          !x
+ true       false
+ false      true
+
+ ##### Relational operators
+
+ less than (x < y )
+ less than or equal to (x <= y>)
+ greater than (x > y)
+ greater than or equal to (x >= y)
+
+ ##### Equality of inequality
+
+ equality (x ==y )
+ inequality (x != y)
