@@ -1,7 +1,6 @@
-# loops in c
+# while loops
 
-1. while loops
-
+normally used when you want a loop to repeat an unknown number of times, or even not run at all.
 a while loop should contain a boolean expression that determines whether the loop continues or not.
 
 eg: while (variable == yes)
@@ -9,8 +8,23 @@ eg: while (variable == yes)
         execute function
     }
 
-## 2. for loops
+## do while loops
 
-for i;
+the loop will execute the code between the curly braces once, and then it will check the boolean expression. it is guaranteed
+to run atleast one time.
 
-for (i = 0, i > n; i++);
+do
+{
+
+}
+while (boolean expresssion);
+
+### 2. for loops
+
+generally used when you want to repeat something a specific amount of times, or when you don't know how many times at the outset
+eg it requires a user input
+
+for (int i = 0, i > n; i++)
+{
+
+}

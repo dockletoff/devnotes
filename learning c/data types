@@ -1,4 +1,19 @@
-# (c)   bool
+# using a variable
+
+after a variable has been declared, it's no longer necessary to specify that variable's type.
+
+int number;     // declaration
+number = 17;    // assignment
+char letter;    // declaration
+letter = 'H'    // assignment
+
+if you are simultaneously declaring and setting the value of a variable (called initializing) , you can consolidate this in one step
+
+int number = 17;    // initialization
+char letter = 'H';  // initialization
+
+
+## booleans or bools
 
 bool = a bool is a data type that can hold one of two values: true or false (or 0/1; yes/no)
 
@@ -8,13 +23,32 @@ if-else statements ie (if true - execute function) else (if not true - execute f
 or in while loops (eg while 0/1, execute function)
 or in for loops (eg for y/n, execute function)
 
-implementation:
+## integers
 
-include the header file "stdbool.h"
+a whole number that is 4 bytes or 32 bits
 
-1. using header file "stdbool.h"
-2. using the enumeration type
-3. using define to declare boolean values
-4. using bool in conditional statements
-5. using bool in loops
-6. using bool as a function return type
+there are also unsigned integers. unsigned is a qualifier that effectively doubles the positive range of integers but 
+eliminates the negatives 
+
+unsigned int
+
+##### characters or chars
+
+one byte
+
+###### floating points 
+
+4 bytes or 32 bits
+
+the float data type will store numbers with decimal parts also known as real numbers. They are limited with how many 
+decimals they can store
+
+######## doubles
+
+doubles are 8 bytes or 64 bits
+these deal with the precision number problem of floats
+
+
+########### strings
+
+strings are a series of characters

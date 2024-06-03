@@ -1,4 +1,39 @@
 # conditionals in c
 
+if (boolean expression)
+(
 
+)
 
+## if else
+
+if (boolean expression)
+{
+
+}
+else
+{
+
+}
+
+### switch statement
+
+permits enumeration of discrete cases, it's important to 'break' or else you fall through the cases
+
+int x = getint();
+switch(x)
+{
+    case 1:
+        printf
+        break;
+    case 2:
+        printf
+        break;
+    case 3:
+        printf
+        break;
+}
+
+###### ternary operator
+
+int x = (expr) ? true : false;
